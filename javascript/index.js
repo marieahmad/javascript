@@ -15,7 +15,7 @@ console.log(data);
 const angka = 1
 console.log(angka);
 
-const data1 = 10 + 10 / 10
+const data1 = 8 - 2
 const data2 = 11 * 2 - 2
 console.log(data1,data2);
 
@@ -54,8 +54,65 @@ console.log(time2);
 let getYears = time.getFullYear()
 console.log(getYears);
 
-const buah = ['apple', 'orange', 'lemon', 'pepaya']
+let buah = ['apple', 'orange', 'lemon', 'pepaya']
 console.log(buah);
+
+const resultBuah = buah.toString()
+console.log(resultBuah);
+const resultBuah1 = buah.join('_')
+console.log(resultBuah1);
+const resultBuah2 = buah.push('_avocado')
+console.log(resultBuah2);
+const resultBuah3 = buah.pop()
+console.log(resultBuah3);
+const resultBuah4 = buah.push('mangga')
+console.log();
+
+// javascript Block
+let dataAngka = 1
+{ 
+    const dataAngka = 2
+}
+console.log(dataAngka);
+
+let grade = 56
+if(grade >= 90) {
+    console.log('A');
+}
+else if (grade >= 80) {
+    console.log('B');
+}
+else if (grade >= 70) {
+    console.log('C');    
+}
+else if (grade >=60) {
+    console.log('D');
+}
+else {
+    console.log('E');
+}
+
+
+let animal = 'kambing'
+switch (animal){
+    case 'sapi':
+    case 'kerbau':
+    case 'kucing':
+        console.log('kucing sudah naik kapal');
+        break;
+        case 'kambing':
+     default:
+    console.log('hewan tidak ada');
+}
+
+// functional For
+let text = ''
+for (i = 0; i < 5; i++){
+    text += i +','
+}
+console.log(text);
+
+
 
 
 
