@@ -112,6 +112,22 @@ for (i = 0; i < 5; i++){
 }
 console.log(text);
 
+const word = ['mouse', 'laptop', 'handphone', 'lcd', 'remote']
+
+const longWord = word.filter(word => word.length > 5)
+console.log(longWord);
+
+const mapData = [1,12,33,14,25]
+const map1 = mapData.map(x => x*2)
+console.log(map1);
+
+const find1 = mapData.find(function(elemen)
+{
+    return elemen > 10
+})
+console.log(find1);
+
+
 
 
 
